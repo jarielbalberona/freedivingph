@@ -16,12 +16,14 @@ const merriweather = Merriweather({
   variable: "--font-merriweather",
   weight: ["400", "300"],
   style: ["normal", "italic"],
+  subsets: ["latin"],
 });
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   weight: ["200", "300", "400", "500", "600"],
   style: ["normal", "italic"],
+  subsets: ["latin"],
 });
 
 const rocksalt = Rock_Salt({
@@ -29,6 +31,7 @@ const rocksalt = Rock_Salt({
   weight: ["400"],
   style: ["normal"],
   display: "swap",
+  subsets: ["latin"],
 });
 
 function MyApp({ children }: { children: ReactNode }) {
