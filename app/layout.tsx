@@ -5,17 +5,17 @@ import Script from "next/script";
 import "styles/globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
-import { Merriweather, Montserrat, Rock_Salt } from "@next/font/google";
+import { Merriweather, Montserrat, Rock_Salt, Sora } from "@next/font/google";
 // import * as gtag from "utilities/google";
 
 import Layout from "components/layout";
 
 config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
 
-const merriweather = Merriweather({
-  variable: "--font-merriweather",
+const sora = Sora({
+  variable: "--font-sorra",
   weight: ["400", "300"],
-  style: ["normal", "italic"],
+  style: ["normal"],
   subsets: ["latin"],
 });
 
@@ -66,14 +66,12 @@ function MyApp({ children }: { children: ReactNode }) {
   return (
     <html
       lang="en"
-      className={[
-        merriweather.variable,
-        montserrat.variable,
-        rocksalt.variable,
-      ].join(" ")}
+      className={[sora.variable, montserrat.variable, rocksalt.variable].join(
+        " "
+      )}
     >
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <Script
+      {/* <Script
         id="gtag-base"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -85,13 +83,13 @@ function MyApp({ children }: { children: ReactNode }) {
             })(window,document,'script','dataLayer', 'GTM-WJ9MV97');
           `,
         }}
-      />
+      /> */}
 
-      <Script
+      {/* <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=G-CHCYYGSRQN`}
-      />
-      <Script
+      /> */}
+      {/* <Script
         id="gtag-init"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -104,17 +102,17 @@ function MyApp({ children }: { children: ReactNode }) {
             });
           `,
         }}
-      />
+      /> */}
       <body>
-        <noscript>
+        {/* <noscript>
           <iframe
             src={`https://www.googletagmanager.com/ns.html?id=GTM-WJ9MV97`}
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
           />
-        </noscript>
-        <script
+        </noscript> */}
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
             window.dataLayer = window.dataLayer || [];
@@ -122,7 +120,7 @@ function MyApp({ children }: { children: ReactNode }) {
             gtag('js', new Date());
           `,
           }}
-        />
+        /> */}
         <Layout>{children}</Layout>
       </body>
     </html>
