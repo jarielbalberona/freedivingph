@@ -11,7 +11,7 @@ module.exports = {
       fontFamily: {
         cursive: ["var(--font-rock_salt)"],
         sans: ["var(--font-montserrat)", "sans-serif"],
-        serif: ["var(--font-merriweather)", "serif"],
+        serif: ["var(--font-sora)", "serif"],
       },
       colors: {
         primary: "#162a43",
