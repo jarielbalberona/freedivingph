@@ -164,17 +164,6 @@ export default function Example() {
             </p>
           </a>
         </div>
-        <div className="m-4">
-          <a
-            target="_blank"
-            href="https://paymongo.page/l/freedivingph"
-            rel="noreferrer"
-          >
-            <p className="text-base text-gray-500 sm:text-base dark:text-gray-400">
-              Show some support!
-            </p>
-          </a>
-        </div>
       </div>
     </div>
   );
