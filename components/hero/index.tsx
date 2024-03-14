@@ -160,7 +160,7 @@ export default function Example() {
         <div className="m-4">
           <a href="mailto:buddy@freediving.ph">
             <p className="text-base text-gray-500 sm:text-base dark:text-gray-400">
-              buddy@freediving.ph
+              jariel@saltandsun.life
             </p>
           </a>
         </div>
