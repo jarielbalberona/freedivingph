@@ -66,6 +66,21 @@ export default function Example() {
             fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)"
           />
         </svg>
+        <div className="w-full p-4 pb-12 mt-12 text-center bg-white">
+          <h3 className="mb-2 text-3xl font-bold text-red-900 dark:text-red">
+            Project has been discontinued
+          </h3>
+          <p className="mb-5 text-base text-gray-500 sm:text-base dark:text-gray-400">
+            ⚠️ This web application project has been discontinued as we shift
+            focus to other priorities. If you're interested in reviving this
+            project or purchasing the domain, feel free to reach out at
+            <a href="mailto:hello@saltandsun.life">
+              <p className="text-base text-blue-500 sm:text-base dark:text-blue-400">
+                hello@saltandsun.life
+              </p>
+            </a>
+          </p>
+        </div>
         <div className="px-6 py-24 mx-auto max-w-7xl sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:pt-32 lg:pb-10">
           <section className="bg-white dark:bg-gray-900">
             <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
@@ -97,7 +112,6 @@ export default function Example() {
             </div>
           </section>
         </div>
-
         <div className="w-full p-4 pb-12 text-center bg-white">
           <h3 className="mb-2 text-3xl font-bold text-gray-900 dark:text-white">
             Coming soon to your pocket: our mobile app!
@@ -158,9 +172,9 @@ export default function Example() {
 
       <div className="justify-center block w-full p-4 pb-12 mt-12 text-center bg-white sm:flex">
         <div className="m-4">
-          <a href="mailto:buddy@freediving.ph">
+          <a href="mailto:hello@saltandsun.life">
             <p className="text-base text-gray-500 sm:text-base dark:text-gray-400">
-              jariel@saltandsun.life
+                hello@saltandsun.life
             </p>
           </a>
         </div>
