@@ -174,7 +174,7 @@ export default function Example() {
         <div className="m-4">
           <a href="mailto:hello@saltandsun.life">
             <p className="text-base text-gray-500 sm:text-base dark:text-gray-400">
-              hello@saltandsun.life
+                hello@saltandsun.life
             </p>
           </a>
         </div>
