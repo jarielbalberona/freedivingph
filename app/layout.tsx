@@ -1,14 +1,15 @@
 "use client";
-import { useEffect, ReactNode } from "react";
-import Script from "next/script";
-// import { useRouter } from "next/router";
-import "styles/globals.css";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import { config } from "@fortawesome/fontawesome-svg-core";
-import { Merriweather, Montserrat, Rock_Salt, Sora } from "@next/font/google";
-// import * as gtag from "utilities/google";
 
 import Layout from "components/layout";
+import Script from "next/script";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import { Merriweather, Montserrat, Rock_Salt, Sora } from "@next/font/google";
+import { ReactNode, useEffect } from "react";
+import "styles/globals.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+
+// import { useRouter } from "next/router";
+// import * as gtag from "utilities/google";
 
 config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
 
