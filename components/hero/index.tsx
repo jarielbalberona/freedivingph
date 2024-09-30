@@ -72,8 +72,8 @@ export default function Example() {
           </h3>
           <p className="mb-5 text-base text-gray-500 sm:text-base dark:text-gray-400">
             ⚠️ This web application project has been discontinued as we shift
-            focus to other priorities. If you're interested in reviving this
-            project or purchasing the domain, feel free to reach out at
+            focus to other priorities. If you&apos;re interested in reviving
+            this project or purchasing the domain, feel free to reach out at
             <a href="mailto:hello@saltandsun.life">
               <p className="text-base text-blue-500 sm:text-base dark:text-blue-400">
                 hello@saltandsun.life
@@ -174,7 +174,7 @@ export default function Example() {
         <div className="m-4">
           <a href="mailto:hello@saltandsun.life">
             <p className="text-base text-gray-500 sm:text-base dark:text-gray-400">
-                hello@saltandsun.life
+              hello@saltandsun.life
             </p>
           </a>
         </div>
